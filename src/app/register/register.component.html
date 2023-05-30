@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+<form class="te" action="">
+    <h2>Register</h2>
+    <input [(ngModel)]="acno1" id="u1" type="text" name="acno1" placeholder="acc.no">
+    <input [(ngModel)]="uname1" id="u2" type="text" name="uname1" placeholder="username">
+    <input [(ngModel)]="psw1" id="p1" type="password" name="psw1" placeholder="password">
+    <input [(ngModel)]="cpsw1" id="p2" type="password" name="cpsw1" placeholder="confirm password">
+
+    <button (click)="register1()"><strong>REgistER</strong></button>
+</form>
+    </div>
+</body>
+</html>
